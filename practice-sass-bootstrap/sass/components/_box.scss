@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    position: relative;
+    padding: 0 30px 16px 20px;
+    height: 240px;
+    .box__img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        z-index: -1;
+        left: 0;
+        padding: 5px 10px;
+    }
+    .btn-w-30 {
+        width: 73px;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        margin-top: 64px;
+    }
+    .box__title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 14px;
+        color: #FFFFFF;
+        letter-spacing: -0.9px;
+        margin-top: 30px;
+    }
+    .box__description {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 14px;
+        color: #E3E3E3;
+        margin-top: 20px;
+    }
+    .btn--padtop {
+        margin-top: 95px;
+    }
+}
