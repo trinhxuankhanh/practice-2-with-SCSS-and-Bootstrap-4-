@@ -1,0 +1,43 @@
+.bot {
+    align-items: center;
+    max-width: 480px;
+    padding: 15px 20px 40px;
+    margin: auto;
+    .bot__input {
+        background: #FFFFFF;
+        border: 1px solid #D4D4D4;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+        border-radius: 3px;
+        width: 100%;
+        padding: 7px 5px;
+    }
+    .bot__input:placeholder {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #999999;
+    }
+    .text__btn {
+        margin-top: 10px;
+        width: 100%;
+        height: 40px;
+    }
+}
+@media screen and (min-width: 567px) {
+    .bot {
+        padding: 25px 0 100px;
+        justify-content: space-between;
+        .bot__input {
+            width: 300px;
+            margin-right: 10px; 
+        }
+        .text__btn {
+            width: 170px;
+            margin: 0;
+            float: right;
+        }
+    }
+}

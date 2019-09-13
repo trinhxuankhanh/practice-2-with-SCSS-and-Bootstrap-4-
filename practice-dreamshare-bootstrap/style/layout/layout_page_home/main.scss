@@ -1,0 +1,42 @@
+.row--mauto {
+    max-width: 940px;
+    margin: auto;
+}
+.text-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    color: #666666;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+.main__btn {
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 36px; 
+    .text__btn {
+        width: 100%;
+        background: #FFFFFF;
+        border: 2px solid #FF4E50;
+        box-sizing: border-box;
+        color: #FF4E50;
+    }
+}
+@media screen and (min-width: 567px) {
+    .text-description {
+        margin-top: 43px;
+    }
+    .main__btn {
+        padding: 0;
+        margin-top: 40px; 
+        .text__btn {
+            width: 180px;
+            height: 40px;
+            background: #FFFFFF;
+            border: 2px solid #FF4E50;
+            box-sizing: border-box;
+            color: #FF4E50;
+        }
+    }
+}

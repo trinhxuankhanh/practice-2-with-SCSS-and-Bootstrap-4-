@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .profile {
-    margin-top: 15px;
     .profile__avatar {
         width: 120px;
         height: 120px;
@@ -33,7 +30,8 @@
         font-size: 14px;
         line-height: 14px;
         color: #666666;
-        margin: 12px 0 0;
+        margin: 12px auto 0;
+        width: 236px;
     }
     .workimg--yellow {
         background-color: #FFA710;
@@ -43,5 +41,20 @@
     }
     .workimg--lowblue {
         background-color: #667DF3;
+    }
+}
+.profile--mt {
+    margin-top: 15px;
+}
+.profile--mt:nth-of-type(1) {
+    margin-top: 11px;
+}
+@media screen and (min-width:426px) {
+    .profile--mt {
+        margin-top: 34px;
+        padding: 0;
+    }
+    .profile--mt:nth-of-type(1) {
+        margin-top: 34px;
     }
 }

@@ -1,0 +1,63 @@
+header {
+    background-image: url(/images/Mobile/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    .menu {
+      align-items: center;
+      padding-top: 20px;
+      .nav {
+        .btn-outline-light {
+          border: 2px solid white;
+        }
+        .btn-header {
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 17px;
+          color: #ffffff;
+        }
+        .btn-header:hover {
+          background: transparent;
+        }
+      }
+      .title {
+        margin-top: 97px;
+        margin-bottom: 28px;
+        .text-header {
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
+    }
+    @media screen and (min-width: 576px) {
+      .menu {
+        padding-top: 40px;
+        .nav {
+          order: 0;
+        }
+        .title {
+          order: -1;
+          margin: 0;
+        }
+        .text-header {
+          margin: 0;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 576px) {
+    header {
+      background-image: url("/images/Tablet/Background.png");
+    }
+  }
+  @media screen and (min-width: 769px) {
+    header {
+      background-image: url("/images/Laptop/Background.png");
+    }
+  }
