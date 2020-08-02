@@ -1,5 +1,5 @@
 header {
-    background-image: url(/images/Mobile/Background.png);
+    background-image: url(../images/Mobile/Background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,11 +53,11 @@ header {
   }
   @media screen and (min-width: 576px) {
     header {
-      background-image: url("/images/Tablet/Background.png");
+      background-image: url("../images/Tablet/Background.png");
     }
   }
   @media screen and (min-width: 769px) {
     header {
-      background-image: url("/images/Laptop/Background.png");
+      background-image: url("../images/Laptop/Background.png");
     }
   }
